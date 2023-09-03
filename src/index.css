@@ -33,7 +33,7 @@ button:not(.button) {
   outline: none;
   background-color: #C08261;
   color: #fff;
-  padding: 1em 1.5em;
+  padding: 0.8em 1.5em;
   border-radius: 0.35em;
   cursor: pointer;
   font-family: 'Nunito', sans-serif;
@@ -49,8 +49,8 @@ button:not(.button):hover {
   flex-wrap: wrap;
 }
 .product {
-  width: 350px;
-  height: 360px;
+  width: 400px;
+  height: 370px;
   border: 0.3px solid #333;
   border-radius: 0.4em;
   padding: 1em;
