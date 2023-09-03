@@ -7,7 +7,7 @@ const Cart =() => {
 
     const [confirm , setConfirm] = useState<boolean>(false)
     
-    const {dispatch , REDUCER_ACTIONS , totalItems , totalPrice , cart} = useCart()
+    const {dispatch , REDUCER_ACTIONS , totalItems , cart} = useCart()
 
     const onSubmitOrder = () => {
         dispatch({ type : REDUCER_ACTIONS.SUBMIT})
