@@ -31,10 +31,9 @@ body {
 button:not(.button) {
   border: none;
   outline: none;
-  font-size: 3.5px;
   background-color: #C08261;
   color: #fff;
-  padding: 0.5em 1em;
+  padding: 1em 1.5em;
   border-radius: 0.35em;
   cursor: pointer;
   font-family: 'Nunito', sans-serif;
@@ -50,8 +49,8 @@ button:not(.button):hover {
   flex-wrap: wrap;
 }
 .product {
-  width: 300px;
-  height: 310px;
+  width: 350px;
+  height: 360px;
   border: 0.3px solid #333;
   border-radius: 0.4em;
   padding: 1em;
@@ -61,7 +60,7 @@ button:not(.button):hover {
   background-color: #F2ECBE;
 }
 .product img {
-  height: 60px;
+  height: 200px;
 }
 .product .name {
   margin: 0 auto;
