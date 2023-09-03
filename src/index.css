@@ -49,12 +49,12 @@ button:not(.button):hover {
   flex-wrap: wrap;
 }
 .product {
-  width: 400px;
+  width: 380px;
   height: 370px;
   border: 0.3px solid #333;
   border-radius: 0.4em;
   padding: 1em;
-  margin: 0.5em;
+  margin: 0.8em;
   display: flex;
   flex-direction: column;
   background-color: #F2ECBE;
